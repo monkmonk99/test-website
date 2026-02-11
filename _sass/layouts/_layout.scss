@@ -37,6 +37,8 @@ main {
     margin: 1rem auto;
     position: relative;
     text-align: center;
+    display: flex;
+    flex-direction: column;
   }
 
   &-title {
@@ -79,6 +81,7 @@ main {
   a {
     color: $default-color;
     font-family: $sans-serif;
+    padding: 5% 0%;
   }
 }
 
@@ -117,6 +120,9 @@ footer {
   font-family: $serif-secondary;
   padding: 2rem 0;
   text-align: center;
+  position: fixed;
+  bottom: 0px;
+  max-width: unset;
 
   span {
     color: $default-color;

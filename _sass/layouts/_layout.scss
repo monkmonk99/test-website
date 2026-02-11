@@ -15,7 +15,16 @@ footer,
 
 .nav {
   box-shadow: 0 2px 2px -2px $shadow-color;
+  overflow: auto;;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
   overflow: auto;
+  background:transparent;
+
 
   &-container {
     margin: 1rem auto;
@@ -63,6 +72,23 @@ footer,
   a {
     color: $default-color;
     font-family: $sans-serif;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .nav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .nav div {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .nav div {
+    text-align: center;
+    float: none;
   }
 }
 

@@ -6,16 +6,14 @@
 </head>
 
 <body style="background-image: url('assets/img/nighttime-street.jpg')">
-  <nav class="nav" style="">
+  <nav class="nav">
     <div class="nav-container">
       <a href="{{ site.baseurl }}/">
         <h2 class="nav-title">{{ site.title }}</h2>
       </a>
-      <ul>
-        <li><a href="{{ '/' | prepend: site.baseurl }}">About</a></li>
-        <li><a href="{{ '/portfolio' | prepend: site.baseurl }}/">Portfolio</a></li>
-        <li><a href="{{ '/resume.pdf' | prepend: site.baseurl }}" target="_blank">Resume</a></li>
-      </ul>
+      <a href="{{ '/' | prepend: site.baseurl }}">About</a>
+      <a href="{{ '/resume.pdf' | prepend: site.baseurl }}" target="_blank">Resume</a>
+      <a href="{{ '/' | prepend: site.baseurl }}">About</a>
     </div>
   </nav>
 

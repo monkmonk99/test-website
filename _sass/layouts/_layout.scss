@@ -13,17 +13,22 @@ footer,
   width: 80%;
 }
 
+main {
+  float:right;
+}
+
 .nav {
   box-shadow: 0 2px 2px -2px $shadow-color;
   overflow: auto;;
   margin: 0;
   padding: 0;
-  width: 200px;
+  width: 20%;
   background-color: #f1f1f1;
   position: fixed;
   height: 100%;
   overflow: auto;
   background:transparent;
+  align-content: center;
 
 
   &-container {

@@ -13,6 +13,12 @@ footer,
   width: 80%;
 }
 
+main {
+  align-content: center;
+  padding-left: 5%;
+  height: 100vh
+}
+
 .nav {
   box-shadow: 0 2px 2px -2px $shadow-color;
   overflow: auto;;
